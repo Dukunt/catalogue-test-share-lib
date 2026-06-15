@@ -7,6 +7,7 @@ def configMap = [
 
 echo " Triggering multi branch pipeline"
 echo " feature branch created"
+echo "printing  project name "
 
 if ( env.BRANCH_NAME.equalsIgnoreCase('main') ) {
     echo "will do it later on the main branch"
