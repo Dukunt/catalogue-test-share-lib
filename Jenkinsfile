@@ -1,8 +1,8 @@
 @Library('test-library') _
 
 def configMap = [
-    project = "Roboshop" ,
-    component = "catalogue"
+    project: "Roboshop" ,
+    component: "catalogue"
 ]
 
 echo " Triggering multi branch pipeline"
